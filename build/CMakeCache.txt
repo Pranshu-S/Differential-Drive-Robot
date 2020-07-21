@@ -306,6 +306,12 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Value Computed by CMake
+mybot_control_BINARY_DIR:STATIC=/home/pranshu2/mybot_ws/build/mybot_control
+
+//Value Computed by CMake
+mybot_control_SOURCE_DIR:STATIC=/home/pranshu2/mybot_ws/src/mybot_control
+
+//Value Computed by CMake
 mybot_description_BINARY_DIR:STATIC=/home/pranshu2/mybot_ws/build/mybot_description
 
 //Value Computed by CMake
@@ -316,6 +322,12 @@ mybot_gazebo_BINARY_DIR:STATIC=/home/pranshu2/mybot_ws/build/mybot_gazebo
 
 //Value Computed by CMake
 mybot_gazebo_SOURCE_DIR:STATIC=/home/pranshu2/mybot_ws/src/mybot_gazebo
+
+//Value Computed by CMake
+mybot_navigation_BINARY_DIR:STATIC=/home/pranshu2/mybot_ws/build/mybot_navigation
+
+//Value Computed by CMake
+mybot_navigation_SOURCE_DIR:STATIC=/home/pranshu2/mybot_ws/src/mybot_navigation
 
 
 ########################
@@ -419,7 +431,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
